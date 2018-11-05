@@ -2,14 +2,71 @@
 title: Le Wagon - Middleman
 ---
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/paris2.jpeg');">
+  <div class="banner-content">
+    <h1>Welcome Home</h1>
+    <p>Book unique homes and experience a city like a local.</p>
+      <form class="form-inline">
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+        </div>
+        <select class="form-control">
+          <option>One guest</option>
+          <option>Two guest</option>
+          <option>Three guest</option>
+        </select>
+        <button type="submit" class="btn btn-primary btn-lg">Search</button>
+      </form>
+    </div>
   </div>
 </div>
+
+
+<div class="container cards">
+  <h2>Recent flats</h2>
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/citytwo.jpeg');">
+        <div class="card-category">Hello</div>
+        <div class="card-description">
+          <h2>It's me!!!</h2>
+          <p>Click to check my profil</p>
+        </div>
+        <img class="card-user avatar" src="images/newme.jpeg">
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/cityone.jpeg');">
+        <div class="card-category">Hello</div>
+        <div class="card-description">
+          <h2>It's me!!!</h2>
+          <p>Click to check my profil</p>
+        </div>
+        <img class="card-user avatar" src="images/newme.jpeg">
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/berlin.jpeg');">
+        <div class="card-category">Hello</div>
+        <div class="card-description">
+          <h2>It's me!!!</h2>
+          <p>Click to check my profil</p>
+        </div>
+        <img class="card-user avatar" src="images/newme.jpeg">
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
